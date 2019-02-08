@@ -1,2 +1,2 @@
 # NHS-Computer-Science
-Compilation of my progressive work in Java   
+Compilation of my progressive work in JS,CSS,HTML   
