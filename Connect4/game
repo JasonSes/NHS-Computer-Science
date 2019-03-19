@@ -18,23 +18,23 @@
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #CD6155;
+  background-color: #C0392B;
   border: none;
   border-radius: 15px;
   box-shadow: 0 4px #999;
 }
 
-.button:hover {background-color: #C0392B}
+.button:hover {background-color: #922B21}
 
 .button:active {
-  background-color: #C0392B;
+  background-color: #922B21;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 </style>
 </head>
 <body>
-
-<div id='board' style="background-color:#004E4F;margin:auto;width:444px;">
+<p>
+<div id='board' style="background-color:#3498DB;margin:auto;width:444px;">
 <div style="text-align:center">
   <span class="dot"></span>
   <span class="dot"></span>
@@ -95,6 +95,7 @@
   <span class="dot"></span>
 </div>
 </div>
+<br>
 <div style="text-align:center">
 <button class="button">Place</button>
 <button class="button">Place</button>
