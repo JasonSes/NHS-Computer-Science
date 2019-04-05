@@ -5,7 +5,7 @@
 .dot {
   height: 60px;
   width: 60px;
-  background-color: #FFFFFF;
+  background-color: white;
   border-radius: 100%;
   display: inline-block;
 }
@@ -32,8 +32,40 @@
   cursor: progress;
 </style>
 <script>
-function column1() {
-
+var turn="red";
+function toggle(){
+   if (turn == 'red') {
+      turn = 'yellow'; 
+   } 
+   else {
+      turn = 'red'; 
+   }
+}
+function column1() { 
+  if(document.getElementById("b36").style.backgroundColor=="white"){
+	document.getElementById("b36").style.backgroundColor = turn;
+    toggle(); 
+  }
+  else if (document.getElementById("b29").style.backgroundColor=="white"){
+	document.getElementById("b29").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b22").style.backgroundColor=="white"){
+	document.getElementById("b22").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b15").style.backgroundColor=="white"){
+	document.getElementById("b15").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b8").style.backgroundColor=="white"){
+	document.getElementById("b8").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b1").style.backgroundColor=="white"){
+	document.getElementById("b1").style.backgroundColor = turn;
+    toggle();
+  }
 }
 </script>
 </head>
@@ -41,63 +73,63 @@ function column1() {
 <p>
 <div id='board' style="background-color:#3498DB;margin:auto;width:460px;">
 <div style="text-align:center">
-  <span id="b1" class="dot"></span>
-  <span id="b2" class="dot"></span>
-  <span id="b3" class="dot"></span>
-  <span id="b4" class="dot"></span>
-  <span id="b5" class="dot"></span>
-  <span id="b6" class="dot"></span>
-  <span id="b7" class="dot"></span>
+  <span id="b1" class="dot" style="background-color:white;"></span>
+  <span id="b2" class="dot" style="background-color:white;"></span>
+  <span id="b3" class="dot" style="background-color:white;"></span>
+  <span id="b4" class="dot" style="background-color:white;"></span>
+  <span id="b5" class="dot" style="background-color:white;"></span>
+  <span id="b6" class="dot" style="background-color:white;"></span>
+  <span id="b7" class="dot" style="background-color:white;"></span>
 </div>
 
 <div style="text-align:center">
-  <span id="b8" class="dot"></span>
-  <span id="b9" class="dot"></span>
-  <span id="b10" class="dot"></span>
-  <span id="b11" class="dot"></span>
-  <span id="b12" class="dot"></span>
-  <span id="b13" class="dot"></span>
-  <span id="b14" class="dot"></span>
+  <span id="b8" class="dot" style="background-color:white;"></span>
+  <span id="b9" class="dot" style="background-color:white;"></span>
+  <span id="b10" class="dot" style="background-color:white;"></span>
+  <span id="b11" class="dot" style="background-color:white;"></span>
+  <span id="b12" class="dot" style="background-color:white;"></span>
+  <span id="b13" class="dot" style="background-color:white;"></span>
+  <span id="b14" class="dot" style="background-color:white;"></span>
 </div>
 
 <div style="text-align:center">
-  <span id="b14" class="dot"></span>
-  <span id="b16" class="dot"></span>
-  <span id="b17" class="dot"></span>
-  <span id="b18" class="dot"></span>
-  <span id="b19" class="dot"></span>
-  <span id="b20" class="dot"></span>
-  <span id="b21" class="dot"></span>
+  <span id="b15" class="dot" style="background-color:white;"></span>
+  <span id="b16" class="dot" style="background-color:white;"></span>
+  <span id="b17" class="dot" style="background-color:white;"></span>
+  <span id="b18" class="dot" style="background-color:white;"></span>
+  <span id="b19" class="dot" style="background-color:white;"></span>
+  <span id="b20" class="dot" style="background-color:white;"></span>
+  <span id="b21" class="dot" style="background-color:white;"></span>
 </div>
 
 <div style="text-align:center">
-  <span id="b22" class="dot"></span>
-  <span id="b23" class="dot"></span>
-  <span id="b24" class="dot"></span>
-  <span id="b25" class="dot"></span>
-  <span id="b26" class="dot"></span>
-  <span id="b27" class="dot"></span>
-  <span id="b28" class="dot"></span>
+  <span id="b22" class="dot" style="background-color:white;"></span>
+  <span id="b23" class="dot" style="background-color:white;"></span>
+  <span id="b24" class="dot" style="background-color:white;"></span>
+  <span id="b25" class="dot" style="background-color:white;"></span>
+  <span id="b26" class="dot" style="background-color:white;"></span>
+  <span id="b27" class="dot" style="background-color:white;"></span>
+  <span id="b28" class="dot" style="background-color:white;"></span>
 </div>
 
 <div style="text-align:center">
-  <span id="b29" class="dot"></span>
-  <span id="b30" class="dot"></span>
-  <span id="b31" class="dot"></span>
-  <span id="b32" class="dot"></span>
-  <span id="b33" class="dot"></span>
-  <span id="b34" class="dot"></span>
-  <span id="b35" class="dot"></span>
+  <span id="b29" class="dot" style="background-color:white;"></span>
+  <span id="b30" class="dot" style="background-color:white;"></span>
+  <span id="b31" class="dot" style="background-color:white;"></span>
+  <span id="b32" class="dot" style="background-color:white;"></span>
+  <span id="b33" class="dot" style="background-color:white;"></span>
+  <span id="b34" class="dot" style="background-color:white;"></span>
+  <span id="b35" class="dot" style="background-color:white;"></span>
 </div>
 
 <div style="text-align:center">
-  <span id="b36" class="dot"></span>
-  <span id="b37" class="dot"></span>
-  <span id="b38" class="dot"></span>
-  <span id="b39" class="dot"></span>
-  <span id="b40" class="dot"></span>
-  <span id="b41" class="dot"></span>
-  <span id="b42" class="dot"></span>
+  <span id="b36" class="dot" style="background-color:white;"></span>
+  <span id="b37" class="dot" style="background-color:white;"></span>
+  <span id="b38" class="dot" style="background-color:white;"></span>
+  <span id="b39" class="dot" style="background-color:white;"></span>
+  <span id="b40" class="dot" style="background-color:white;"></span>
+  <span id="b41" class="dot" style="background-color:white;"></span>
+  <span id="b42" class="dot" style="background-color:white;"></span>
 </div>
 </div>
 <br>
