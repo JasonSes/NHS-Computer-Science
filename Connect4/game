@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,84 +26,92 @@
 .button:hover {background-color: #922B21}
 
 .button:active {
-  background-color: #922B21;
+  background-color: #F4D03F;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+  cursor: progress;
 </style>
+<script>
+function column1() {
+
+}
+</script>
 </head>
 <body>
 <p>
-<div id='board' style="background-color:#3498DB;margin:auto;width:444px;">
+<div id='board' style="background-color:#3498DB;margin:auto;width:460px;">
 <div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
+  <span id="b1" class="dot"></span>
+  <span id="b2" class="dot"></span>
+  <span id="b3" class="dot"></span>
+  <span id="b4" class="dot"></span>
+  <span id="b5" class="dot"></span>
+  <span id="b6" class="dot"></span>
+  <span id="b7" class="dot"></span>
 </div>
 
 <div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
+  <span id="b8" class="dot"></span>
+  <span id="b9" class="dot"></span>
+  <span id="b10" class="dot"></span>
+  <span id="b11" class="dot"></span>
+  <span id="b12" class="dot"></span>
+  <span id="b13" class="dot"></span>
+  <span id="b14" class="dot"></span>
 </div>
 
 <div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
+  <span id="b14" class="dot"></span>
+  <span id="b16" class="dot"></span>
+  <span id="b17" class="dot"></span>
+  <span id="b18" class="dot"></span>
+  <span id="b19" class="dot"></span>
+  <span id="b20" class="dot"></span>
+  <span id="b21" class="dot"></span>
 </div>
 
 <div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
+  <span id="b22" class="dot"></span>
+  <span id="b23" class="dot"></span>
+  <span id="b24" class="dot"></span>
+  <span id="b25" class="dot"></span>
+  <span id="b26" class="dot"></span>
+  <span id="b27" class="dot"></span>
+  <span id="b28" class="dot"></span>
 </div>
 
 <div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
+  <span id="b29" class="dot"></span>
+  <span id="b30" class="dot"></span>
+  <span id="b31" class="dot"></span>
+  <span id="b32" class="dot"></span>
+  <span id="b33" class="dot"></span>
+  <span id="b34" class="dot"></span>
+  <span id="b35" class="dot"></span>
 </div>
 
 <div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
+  <span id="b36" class="dot"></span>
+  <span id="b37" class="dot"></span>
+  <span id="b38" class="dot"></span>
+  <span id="b39" class="dot"></span>
+  <span id="b40" class="dot"></span>
+  <span id="b41" class="dot"></span>
+  <span id="b42" class="dot"></span>
 </div>
 </div>
 <br>
 <div style="text-align:center">
-<button class="button">Place</button>
-<button class="button">Place</button>
-<button class="button">Place</button>
-<button class="button">Place</button>
-<button class="button">Place</button>
-<button class="button">Place</button>
-<button class="button">Place</button>
+<button onclick="column1()"class="button">Place</button>
+<button onclick="column2()"class="button">Place</button>
+<button onclick="column3()"class="button">Place</button>
+<button onclick="column4()"class="button">Place</button>
+<button onclick="column5()"class="button">Place</button>
+<button onclick="column6()"class="button">Place</button>
+<button onclick="column7()"class="button">Place</button>
 </div>
+
+
 
 </body>
 </html> 
