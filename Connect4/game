@@ -67,6 +67,168 @@ else if (document.getElementById("b1").style.backgroundColor=="white"){
     toggle();
   }
 }
+
+function column2() { 
+  if(document.getElementById("b37").style.backgroundColor=="white"){
+	document.getElementById("b37").style.backgroundColor = turn;
+    toggle(); 
+  }
+  else if (document.getElementById("b30").style.backgroundColor=="white"){
+	document.getElementById("b30").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b23").style.backgroundColor=="white"){
+	document.getElementById("b23").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b16").style.backgroundColor=="white"){
+	document.getElementById("b16").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b9").style.backgroundColor=="white"){
+	document.getElementById("b9").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b2").style.backgroundColor=="white"){
+	document.getElementById("b2").style.backgroundColor = turn;
+    toggle();
+  }
+}
+
+function column3() { 
+  if(document.getElementById("b38").style.backgroundColor=="white"){
+	document.getElementById("b38").style.backgroundColor = turn;
+    toggle(); 
+  }
+  else if (document.getElementById("b31").style.backgroundColor=="white"){
+	document.getElementById("b31").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b24").style.backgroundColor=="white"){
+	document.getElementById("b24").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b17").style.backgroundColor=="white"){
+	document.getElementById("b17").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b10").style.backgroundColor=="white"){
+	document.getElementById("b10").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b3").style.backgroundColor=="white"){
+	document.getElementById("b3").style.backgroundColor = turn;
+    toggle();
+  }
+}
+
+function column4() { 
+  if(document.getElementById("b39").style.backgroundColor=="white"){
+	document.getElementById("b39").style.backgroundColor = turn;
+    toggle(); 
+  }
+  else if (document.getElementById("b32").style.backgroundColor=="white"){
+	document.getElementById("b32").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b25").style.backgroundColor=="white"){
+	document.getElementById("b25").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b18").style.backgroundColor=="white"){
+	document.getElementById("b18").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b11").style.backgroundColor=="white"){
+	document.getElementById("b11").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b4").style.backgroundColor=="white"){
+	document.getElementById("b4").style.backgroundColor = turn;
+    toggle();
+  }
+}
+
+function column5() { 
+  if(document.getElementById("b40").style.backgroundColor=="white"){
+	document.getElementById("b40").style.backgroundColor = turn;
+    toggle(); 
+  }
+  else if (document.getElementById("b33").style.backgroundColor=="white"){
+	document.getElementById("b33").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b26").style.backgroundColor=="white"){
+	document.getElementById("b26").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b19").style.backgroundColor=="white"){
+	document.getElementById("b19").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b12").style.backgroundColor=="white"){
+	document.getElementById("b12").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b5").style.backgroundColor=="white"){
+	document.getElementById("b5").style.backgroundColor = turn;
+    toggle();
+  }
+}
+
+function column6() { 
+  if(document.getElementById("b41").style.backgroundColor=="white"){
+	document.getElementById("b41").style.backgroundColor = turn;
+    toggle(); 
+  }
+  else if (document.getElementById("b34").style.backgroundColor=="white"){
+	document.getElementById("b34").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b27").style.backgroundColor=="white"){
+	document.getElementById("b27").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b20").style.backgroundColor=="white"){
+	document.getElementById("b20").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b13").style.backgroundColor=="white"){
+	document.getElementById("b13").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b6").style.backgroundColor=="white"){
+	document.getElementById("b6").style.backgroundColor = turn;
+    toggle();
+  }
+}
+
+function column7() { 
+  if(document.getElementById("b42").style.backgroundColor=="white"){
+	document.getElementById("b42").style.backgroundColor = turn;
+    toggle(); 
+  }
+  else if (document.getElementById("b35").style.backgroundColor=="white"){
+	document.getElementById("b35").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b28").style.backgroundColor=="white"){
+	document.getElementById("b28").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b21").style.backgroundColor=="white"){
+	document.getElementById("b21").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b14").style.backgroundColor=="white"){
+	document.getElementById("b14").style.backgroundColor = turn;
+    toggle();
+  }
+else if (document.getElementById("b7").style.backgroundColor=="white"){
+	document.getElementById("b7").style.backgroundColor = turn;
+    toggle();
+  }
+}
 </script>
 </head>
 <body>
